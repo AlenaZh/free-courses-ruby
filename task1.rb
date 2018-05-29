@@ -24,7 +24,9 @@ while k do
 #   puts "-----"
     if (e<=b)
         k=false
-        d+=c.key(e)
+        if e!=0
+            d+=c.key(e)
+        end
     end
 end
 

@@ -17,9 +17,14 @@ end
 
 while k do
    d+=c.key(e%b)
+#    puts d
    e= e/b
-    if (e%b==0)
+#   puts e
+#   puts e%b
+#   puts "-----"
+    if (e<=b)
         k=false
+        d+=c.key(e)
     end
 end
 

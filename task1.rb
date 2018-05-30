@@ -22,7 +22,7 @@ while k do
 #   puts e
 #   puts e%b
 #   puts "-----"
-    if (e<=b)
+    if (e<b)
         k=false
         if e!=0
             d+=c.key(e)

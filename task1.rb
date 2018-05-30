@@ -17,17 +17,17 @@ end
 
 while k do
    d+=c.key(e%b)
-#    puts d
    e= e/b
-#   puts e
-#   puts e%b
-#   puts "-----"
+
     if (e<b)
         k=false
+
         if e!=0
             d+=c.key(e)
         end
+
     end
+    
 end
 
 puts d.reverse

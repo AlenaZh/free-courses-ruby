@@ -3,7 +3,7 @@ c = {'0'=> 0 ,'1'=> 1 ,'2'=> 2 ,'3'=> 3 ,'4'=> 4 ,'5'=> 5,'6'=> 6,'7'=> 7,'8'=> 
      'K'=>20,'L'=>21,'M'=>22,'N'=>23,'O'=>24,'P'=>25,'Q'=>26,'R'=>27,'S'=>28,'T'=>29,
      'U'=>30,'V'=>31,'W'=>32,'X'=>33,'Y'=>34,'Z'=>35}
 
-i = ARGV[0].to_s.split('')
+i = ARGV[0].to_s.upcase.split('')
 a = ARGV[1].to_i
 b = ARGV[2].to_i
 
@@ -30,4 +30,4 @@ while k do
     
 end
 
-puts d.reverse
+puts d.reverse.downcase
